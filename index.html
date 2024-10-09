@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>反擊流</title>
+	<script>
+		function openTab(i) {
+			if(i == 1){
+				window.open("https://honkai-star-rail.fandom.com/wiki/Yunli", "_blank");
+			}
+			if(i == 2){
+				window.open("https://honkai-star-rail.fandom.com/wiki/Clara", "_blank");
+			}
+		}
+	</script>
+	<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<h2 style="background-color: aqua;">HTML5&CSS3 標誌圖示(使用figure和figcaption)</h2>
+		<figure>
+			<img src="yunli.png" alt="Yunli" onclick="openTab(1)">
+			<img src="clara.png" alt="Clara" onclick="openTab(2)">
+			<figcaption>HTML5&CSS3 的Logo標誌</figcaption>
+		</figure>
+		</ br>
+		<h2 style="background-color: aqua;">HTML5&CSS3 標誌圖示(使用div)</h2>
+		<div id="figure" >
+			<img src="yunli.png" alt="Yunli" onclick="openTab(1)">
+			<img src="clara.png" alt="Clara" onclick="openTab(2)">
+			<div id = "figcaption" >HTML5&CSS3 的Logo標誌</div>
+		</div>
+	</body>
+</html>
